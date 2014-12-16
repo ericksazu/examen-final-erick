@@ -1,0 +1,86 @@
+@import 'compass/reset';
+
+.cf:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+div.container{
+  width: 75%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+
+  div.header-top{
+    // height: 95px;
+    padding: 25px 0;
+    background-color: #ffffff;
+
+    ul{
+      float: right;
+      padding-top: 20px;
+
+      li{
+        float: left;
+
+        a{
+          color: #444444;
+          text-decoration: none;
+          padding: 10px 10px;
+
+          @media (max-width: 768px){
+            font-size: 13px;
+          }
+
+          &:hover{
+            background-color: #1bbc9b;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    div.logo{
+      float: left;
+
+      @media (max-width: 480px){
+        float: none;
+      }
+
+      a{
+        text-align: center;
+        display: block;
+      }
+      
+    }
+
+    nav.header-nav{
+      //padding: 40px 0;
+    }
+  }
+
+  div.header-img{
+    height: 453px;
+    background: url(../img/jumbotron.png);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+  }
+}
+
