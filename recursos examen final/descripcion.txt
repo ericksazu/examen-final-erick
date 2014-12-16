@@ -1,0 +1,6 @@
+Examen 2
+
+La idea del examen es convertir de PSD a HTML y CSS. A partir del archivo adjunto deben de escribir el código necesario para que una vez terminado se vea lo más similar posible.
+Los colores de fondo en las distintas secciones se deben de extender al 100% del espacio en la ventana del navegador.
+A la hora de dar las medidas a los diferentes elementos en CSS, todas debe ser medidas relativas (em, rem o %).
+Como puntos extra esta desarrollar la página de forma responsiva, para este deben de incluir 2 breakpoint. El primero a 768px y el otro a 480px. Si lo completan de esta manera se obtendran 3% sobre la nota final del examen.
