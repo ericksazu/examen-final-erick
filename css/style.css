@@ -79,7 +79,7 @@ body {
 
 /* line 15, ../scss/style.scss */
 div.container {
-  width: 75%;
+  width: 70%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -213,4 +213,46 @@ div.portfolio div.portfolio-nav ul li a {
 /* line 134, ../scss/style.scss */
 div.portfolio div.portfolio-nav ul li a:hover {
   background-color: #16a086;
+}
+/* line 144, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top {
+  width: 100%;
+}
+/* line 147, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img:first-of-type {
+  padding-left: 0;
+}
+/* line 151, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img {
+  float: left;
+  margin: 20px 20px;
+  /* padding-left: 12.5%; */
+}
+/* line 156, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img span.c1 {
+  background: url("../img/circles.png") no-repeat -8px 0;
+  width: 170px;
+  height: 180px;
+  display: block;
+}
+/* line 163, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img span.c2 {
+  background: url("../img/circles.png") no-repeat -182px 0;
+  width: 177px;
+  height: 181px;
+  display: block;
+}
+/* line 170, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img span.c3 {
+  background: url("../img/circles.png") no-repeat -362px 0;
+  width: 179px;
+  height: 180px;
+  display: block;
+}
+/* line 177, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img span.c4 {
+  background: url("../img/circles.png") no-repeat -543px 0;
+  width: 178px;
+  height: 180px;
+  display: block;
 }
