@@ -89,43 +89,50 @@ header div.header-top {
   padding: 25px 0;
   background-color: #ffffff;
 }
-/* line 28, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 header div.header-top ul {
   float: right;
   padding-top: 20px;
 }
-/* line 32, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 header div.header-top ul li {
   float: left;
 }
-/* line 35, ../scss/style.scss */
+/* line 34, ../scss/style.scss */
 header div.header-top ul li a {
   color: #444444;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 0.5em 1em;
 }
 @media (max-width: 768px) {
-  /* line 35, ../scss/style.scss */
+  /* line 34, ../scss/style.scss */
   header div.header-top ul li a {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
-/* line 44, ../scss/style.scss */
+@media (max-width: 480px) {
+  /* line 34, ../scss/style.scss */
+  header div.header-top ul li a {
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+}
+/* line 48, ../scss/style.scss */
 header div.header-top ul li a:hover {
   background-color: #1bbc9b;
   color: #ffffff;
 }
-/* line 52, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 header div.header-top div.logo {
   float: left;
 }
 @media (max-width: 480px) {
-  /* line 52, ../scss/style.scss */
+  /* line 56, ../scss/style.scss */
   header div.header-top div.logo {
     float: none;
   }
 }
-/* line 59, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 header div.header-top div.logo a {
   text-align: center;
   display: block;
@@ -134,14 +141,76 @@ header div.header-top div.logo a {
 header div.header-img {
   height: 453px;
   background: url(../img/jumbotron.png);
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
+}
+
+/* line 81, ../scss/style.scss */
+div.portfolio {
+  padding: 55px 5px;
+}
+/* line 84, ../scss/style.scss */
+div.portfolio div.portfolio-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 88, ../scss/style.scss */
+div.portfolio div.portfolio-top h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+/* line 96, ../scss/style.scss */
+div.portfolio div.portfolio-nav nav {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  /* line 96, ../scss/style.scss */
+  div.portfolio div.portfolio-nav nav {
+    width: 52%;
+  }
+}
+/* line 106, ../scss/style.scss */
+div.portfolio div.portfolio-nav ul {
+  padding-top: 20px;
+  display: inline-block;
+}
+@media (max-width: 480px) {
+  /* line 106, ../scss/style.scss */
+  div.portfolio div.portfolio-nav ul {
+    padding-top: 0;
+    text-align: center;
+  }
+}
+/* line 115, ../scss/style.scss */
+div.portfolio div.portfolio-nav ul li {
+  float: left;
+}
+@media (max-width: 480px) {
+  /* line 115, ../scss/style.scss */
+  div.portfolio div.portfolio-nav ul li {
+    margin-bottom: 29px;
+    width: 100%;
+  }
+}
+/* line 123, ../scss/style.scss */
+div.portfolio div.portfolio-nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #1bbc9b;
+  margin-right: 15px;
+}
+@media (max-width: 480px) {
+  /* line 123, ../scss/style.scss */
+  div.portfolio div.portfolio-nav ul li a {
+    margin-right: 0;
+  }
+}
+/* line 134, ../scss/style.scss */
+div.portfolio div.portfolio-nav ul li a:hover {
+  background-color: #16a086;
 }
