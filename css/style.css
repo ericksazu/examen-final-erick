@@ -166,19 +166,16 @@ div.portfolio div.portfolio-nav nav {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-}
-@media (max-width: 480px) {
-  /* line 96, ../scss/style.scss */
-  div.portfolio div.portfolio-nav nav {
+  /* @media (max-width: 480px){
     width: 52%;
-  }
+  } */
 }
 /* line 106, ../scss/style.scss */
 div.portfolio div.portfolio-nav ul {
   padding-top: 20px;
   display: inline-block;
 }
-@media (max-width: 480px) {
+@media (max-width: 708px) {
   /* line 106, ../scss/style.scss */
   div.portfolio div.portfolio-nav ul {
     padding-top: 0;
@@ -189,7 +186,7 @@ div.portfolio div.portfolio-nav ul {
 div.portfolio div.portfolio-nav ul li {
   float: left;
 }
-@media (max-width: 480px) {
+@media (max-width: 708px) {
   /* line 115, ../scss/style.scss */
   div.portfolio div.portfolio-nav ul li {
     margin-bottom: 29px;
@@ -204,7 +201,7 @@ div.portfolio div.portfolio-nav ul li a {
   background-color: #1bbc9b;
   margin-right: 15px;
 }
-@media (max-width: 480px) {
+@media (max-width: 708px) {
   /* line 123, ../scss/style.scss */
   div.portfolio div.portfolio-nav ul li a {
     margin-right: 0;
@@ -216,43 +213,302 @@ div.portfolio div.portfolio-nav ul li a:hover {
 }
 /* line 144, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top {
-  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
 }
-/* line 147, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img:first-of-type {
   padding-left: 0;
 }
-/* line 151, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img {
-  float: left;
-  margin: 20px 20px;
-  /* padding-left: 12.5%; */
+  width: 17.5%;
+  display: inline-block;
+  margin: 1.813em;
 }
-/* line 156, ../scss/style.scss */
+@media (max-width: 1158px) {
+  /* line 153, ../scss/style.scss */
+  div.portfolio div.portfolio-img div.img-top div.img {
+    width: 32.5%;
+  }
+}
+@media (max-width: 496px) {
+  /* line 153, ../scss/style.scss */
+  div.portfolio div.portfolio-img div.img-top div.img {
+    width: 62.5%;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+/* line 168, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-top div.img span {
+  margin: 0 auto;
+}
+/* line 172, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img span.c1 {
   background: url("../img/circles.png") no-repeat -8px 0;
   width: 170px;
   height: 180px;
   display: block;
 }
-/* line 163, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img span.c2 {
   background: url("../img/circles.png") no-repeat -182px 0;
   width: 177px;
   height: 181px;
   display: block;
 }
-/* line 170, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img span.c3 {
   background: url("../img/circles.png") no-repeat -362px 0;
   width: 179px;
   height: 180px;
   display: block;
 }
-/* line 177, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 div.portfolio div.portfolio-img div.img-top div.img span.c4 {
   background: url("../img/circles.png") no-repeat -543px 0;
   width: 178px;
   height: 180px;
   display: block;
+}
+/* line 202, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down {
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+}
+/* line 207, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img:first-of-type {
+  padding-left: 0;
+}
+/* line 211, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img {
+  width: 17.5%;
+  display: inline-block;
+  margin: 1.813em;
+}
+@media (max-width: 1158px) {
+  /* line 211, ../scss/style.scss */
+  div.portfolio div.portfolio-img div.img-down div.img {
+    width: 32.5%;
+  }
+}
+@media (max-width: 496px) {
+  /* line 211, ../scss/style.scss */
+  div.portfolio div.portfolio-img div.img-down div.img {
+    width: 62.5%;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+/* line 226, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img span {
+  margin: 0 auto;
+}
+/* line 230, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img span.c5 {
+  background: url("../img/circles.png") no-repeat -5px -184px;
+  width: 170px;
+  height: 180px;
+  display: block;
+}
+/* line 237, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img span.c6 {
+  background: url("../img/circles.png") no-repeat -181px -184px;
+  width: 176px;
+  height: 180px;
+  display: block;
+}
+/* line 244, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img span.c7 {
+  background: url("../img/circles.png") no-repeat -367px -184px;
+  width: 170px;
+  height: 180px;
+  display: block;
+}
+/* line 251, ../scss/style.scss */
+div.portfolio div.portfolio-img div.img-down div.img span.c8 {
+  background: url("../img/circles.png") no-repeat -543px -184px;
+  width: 177px;
+  height: 180px;
+  display: block;
+}
+
+/* line 262, ../scss/style.scss */
+div.about {
+  padding: 55px 5px;
+  background-color: #16a086;
+}
+/* line 266, ../scss/style.scss */
+div.about div.about-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 270, ../scss/style.scss */
+div.about div.about-top h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+/* line 275, ../scss/style.scss */
+div.about div.about-top h2, div.about div.about-top p {
+  color: #ffffff;
+}
+/* line 282, ../scss/style.scss */
+div.about div.photos div.photo {
+  width: 28%;
+  float: left;
+  background: #FFF;
+  margin-right: 8%;
+}
+@media (max-width: 768px) {
+  /* line 282, ../scss/style.scss */
+  div.about div.photos div.photo {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+}
+/* line 294, ../scss/style.scss */
+div.about div.photos div.photo img.person {
+  width: 100%;
+}
+/* line 300, ../scss/style.scss */
+div.about div.photos div.photo div.about-text h3 {
+  color: #292828;
+  font-size: 1.4em;
+  margin-top: 15px;
+  text-align: center;
+}
+/* line 307, ../scss/style.scss */
+div.about div.photos div.photo div.about-text p:nth-child(2) {
+  text-align: center;
+  color: #444444;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 5px 25px 9px 25px;
+  padding: 0;
+}
+/* line 316, ../scss/style.scss */
+div.about div.photos div.photo div.about-text p:nth-child(3) {
+  color: #444444;
+  font-size: 1.02em;
+  text-align: left;
+  padding: 1em 1em 2em 1em;
+  line-height: 1.9em;
+}
+/* line 326, ../scss/style.scss */
+div.about div.photos div.photo:nth-child(3) {
+  margin-right: 0;
+}
+
+/* line 332, ../scss/style.scss */
+div.contact {
+  padding: 55px 5px;
+  background-color: #ecf0f1;
+}
+/* line 336, ../scss/style.scss */
+div.contact div.contact-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 340, ../scss/style.scss */
+div.contact div.contact-top h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+/* line 346, ../scss/style.scss */
+div.contact div.form {
+  width: 75%;
+  margin: 0 auto;
+}
+@media (max-width: 1638px) {
+  /* line 346, ../scss/style.scss */
+  div.contact div.form {
+    width: 100%;
+  }
+}
+/* line 356, ../scss/style.scss */
+div.contact div.form form input, div.contact div.form form textarea {
+  padding: 15px;
+  display: block;
+  width: 44.5%;
+  background: #ffffff;
+  outline: none;
+  color: #888282;
+  font-size: 0.8125em;
+  -webkit-appearance: none;
+  float: left;
+  margin-right: 2em;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid #cacaca;
+  margin-bottom: 25px;
+}
+@media (max-width: 1232px) {
+  /* line 356, ../scss/style.scss */
+  div.contact div.form form input, div.contact div.form form textarea {
+    width: 44%;
+  }
+}
+@media (max-width: 1128px) {
+  /* line 356, ../scss/style.scss */
+  div.contact div.form form input, div.contact div.form form textarea {
+    width: 95.5%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 356, ../scss/style.scss */
+  div.contact div.form form input, div.contact div.form form textarea {
+    width: 93%;
+  }
+}
+/* line 384, ../scss/style.scss */
+div.contact div.form form input.email {
+  margin-right: 0;
+}
+/* line 388, ../scss/style.scss */
+div.contact div.form form textarea {
+  width: 95.5%;
+  resize: none;
+  height: 180px;
+}
+@media (max-width: 800px) {
+  /* line 388, ../scss/style.scss */
+  div.contact div.form form textarea {
+    width: 93%;
+  }
+}
+/* line 398, ../scss/style.scss */
+div.contact div.form form input.submit {
+  width: 15%;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  background: #1BBC9B;
+  border: 1px solid #1BBC9B;
+  display: block;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+  float: right;
+  margin-right: 0;
+}
+@media (max-width: 1232px) {
+  /* line 398, ../scss/style.scss */
+  div.contact div.form form input.submit {
+    width: 20%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 398, ../scss/style.scss */
+  div.contact div.form form input.submit {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 398, ../scss/style.scss */
+  div.contact div.form form input.submit {
+    width: 95%;
+  }
 }
