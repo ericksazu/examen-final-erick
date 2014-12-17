@@ -512,3 +512,16 @@ div.contact div.form form input.submit {
     width: 95%;
   }
 }
+
+/* line 428, ../scss/style.scss */
+footer {
+  background-color: #2d3e50;
+}
+/* line 431, ../scss/style.scss */
+footer div.footer-content {
+  padding: 35px 0;
+}
+/* line 434, ../scss/style.scss */
+footer div.footer-content p {
+  color: white;
+}
